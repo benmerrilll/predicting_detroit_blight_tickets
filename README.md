@@ -7,3 +7,5 @@ The Michigan Data Science Team (MDST) and the Michigan Student Symposium for Int
 This project aims to take information on issuances of past tickets to build a model that can predict the likelihood of new ticket issuances paying their fine or not. It also evaluates the model, providing useful information on relevant indicators of blight ticket compliance or avoidance. 
 
 Our data comes from the Detroit Open Data Portal (https://data.detroitmi.gov/) and comes with two files: past_blight_tickets.csv and current_blight_tickets.csv.
+
+After data cleaning, we fit three models using the sklearn library and evaluate each model's preformance. We then chose the best model and export our predictions.
